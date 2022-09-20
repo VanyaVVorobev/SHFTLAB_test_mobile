@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CFT_project</string>
+    <string name="sign_up">go to sign up</string>
+    <string name="main_screen">go to main screen</string>
+    <string name="back">back</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="date_of_birth">date of birth</string>
+    <string name="password">password</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="submit">submit</string>
+
+    <string name="first_name_empty">your first name mustn\'t be empty</string>
+    <string name="last_name_empty">your last name mustn\'t be empty</string>
+    <string name="date_of_birth_empty">your date of birth mustn\'t be empty</string>
+    <string name="date_of_birth_incorrect">your date of birth is incorrect</string>
+    <string name="password_is_short">your password must have 8 and more symbols</string>
+    <string name="password_incorrect">your password must have A–Z, a–z, 0–9</string>
+    <string name="second_password_incorrect">your passwords must be same</string>
+    <string name="second_password_empty">your second passwords mustn\'t be empty </string>
+    <string name="empty_error"> </string>
+    <string name="hello_app">hello app</string>
+
+    <string name="poem_name_regex">_name_</string>
+    <string name="poem">Привет, _name_,\nНу как твои дела?\nЯ так… хочу сказать «привет»,\nДавно не видела тебя…\nПривет, я тебя иногда вспоминаю,\nВедь много хорошего было у нас,\nЗачем говорю все это — не знаю?!\nНо вдруг мы видимся в последний раз…\nЯ рада-у тебя все хорошо,\nВедь по-другому и быть не может,\nКак много времени прошло,\nНо взгляд твой сердце все равно тревожит…</string>
+    <string name="sign_out">Sign out</string>
+
+
+</resources>

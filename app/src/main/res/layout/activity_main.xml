@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/greeting_text_view"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/signout_button"
+            android:text="@string/sign_out"
+            style="@style/primary_button"/>
+
+        <Button
+            android:id="@+id/hello_button"
+            android:text="@string/hello_app"
+            style="@style/primary_button"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+</LinearLayout>

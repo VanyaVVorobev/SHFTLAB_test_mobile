@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/second_primary">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/first_name_edit_text"
+            android:hint="@string/first_name"
+            style="@style/standard_edit_text"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:id="@+id/first_name_text_view"
+            style="@style/error_text_view"/>
+        <EditText
+            android:id="@+id/last_name_edit_text"
+            android:hint="@string/last_name"
+            style="@style/standard_edit_text"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:id="@+id/last_name_text_view"
+            style="@style/error_text_view"/>
+        <EditText
+            android:id="@+id/birth_date_edit_text"
+            android:hint="@string/date_of_birth"
+            style="@style/standard_edit_text"
+            android:inputType="date"/>
+        <TextView
+            android:id="@+id/birth_date_text_view"
+            style="@style/error_text_view"/>
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:hint="@string/password"
+            style="@style/standard_edit_text"
+            android:inputType="textPassword"/>
+        <TextView
+            android:id="@+id/password_text_view"
+            style="@style/error_text_view"/>
+        <EditText
+            android:id="@+id/second_password_edit_text"
+            android:hint="@string/repeat_password"
+            style="@style/standard_edit_text"
+            android:inputType="textPassword"/>
+        <TextView
+            android:id="@+id/second_password_text_view"
+            android:layout_marginBottom="40dp"
+            style="@style/error_text_view"/>
+        <Button
+            android:id="@+id/submit_button"
+            android:text="@string/submit"
+            style="@style/primary_button"
+            android:layout_marginBottom="32dp"/>
+    </LinearLayout>
+</LinearLayout>
